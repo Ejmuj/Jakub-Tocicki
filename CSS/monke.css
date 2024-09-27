@@ -97,7 +97,10 @@
   }
 
   .myButton:hover {
-    background-color: aqua;
+    background-color: black;
     font-size: 10px;
   }
 
+  a:hover {
+    color: white;
+  }

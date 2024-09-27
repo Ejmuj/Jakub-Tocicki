@@ -44,6 +44,10 @@
 
 
   .myButton:hover {
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     font-size: larger;
+  }
+
+  a:hover {
+    color: white;
   }
