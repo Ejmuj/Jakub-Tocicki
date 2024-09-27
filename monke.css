@@ -96,9 +96,6 @@
     cursor: pointer;
   }
 
-
-
-
   .myButton:hover {
     background-color: aqua;
     font-size: 10px;
