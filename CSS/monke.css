@@ -31,7 +31,7 @@
   }
 
   .item4 {
-    height: 900px;
+    height: 1100px;
     grid-column: 1/ span 2;
     grid-row: 3;
     width: 800px;
@@ -101,6 +101,11 @@
   p7 {
     font-size: 20px;
   }
+
+  p8 {
+    font-size: 20px;
+  }
+
 
   .myButton {
     border: none;
