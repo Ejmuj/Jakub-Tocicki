@@ -31,10 +31,8 @@
   }
 
   .item4 {
-    height: 1100px;
     grid-column: 1/ span 2;
     grid-row: 3;
-    width: 800px;
   }
 
   .item5 {
@@ -46,7 +44,7 @@
 .item7 {
   grid-column: 3/ span 1;
   grid-row: 3;
-  width: 400px;
+  padding: 0px;
 }
   
 .item6{
@@ -82,30 +80,9 @@
     height: 50px; 
   }
 
-  p2 {
+  p {
     font-size: 20px;
   }
-
-  p4 {
-    font-size: 20px;
-  }
-
-  p5 {
-    font-size: 20px;
-  }
-  
-  p6 {
-    font-size: 20px;
-  }
-
-  p7 {
-    font-size: 20px;
-  }
-
-  p8 {
-    font-size: 20px;
-  }
-
 
   .myButton {
     border: none;
