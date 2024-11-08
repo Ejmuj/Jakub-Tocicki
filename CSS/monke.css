@@ -35,7 +35,7 @@
 
   .item4 {
     grid-column: 1/ span 2;
-    grid-row: 3;
+    grid-row: 5;
   }
 
   .item5 {
@@ -47,10 +47,16 @@
 
 .item7 {
   grid-column: 3/ span 1;
-  grid-row: 3;
+  grid-row: 5;
   padding: 0px;
 }
-  
+
+.item8 {
+  grid-column: 1/ span 3;
+  grid-row: 3;
+}
+
+
 
   #rcorners1 {
     border-radius: 25px;

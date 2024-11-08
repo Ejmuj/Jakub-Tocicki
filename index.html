@@ -13,6 +13,33 @@
         <div class="grid-container">
             <div class="grid-item item1"><a2 style="color: rgb(48, 19, 137);">Jakub Tocicki</a2></div>
             <div class="grid-item item3"><button class="myButton"><a style="color: rgb(255, 255, 255);" href="https://www.cookieclicker.com/">En kul nettside</a></button><button class="myButton"><a style="color: white;" href="HTML/donkey.html">Blud Ser</a></button><button class="myButton"><a style="color: white;" href="https://ejmuj.github.io/tourisma/">Engelsk side</a></button><button class="myButton"><a style="color: white;" href="HTML/Fotoserie.html">Fotoserie</a></button></div>
+            <div class="grid-item item8"><div id="promptBox">
+                <p>Skriv ditt navn her:</p>
+                <input type="text" id="userInput" placeholder="Ditt navn her">
+                <button onclick="submitPrompt()">Submit</button>
+                </div>
+            
+                <p id="result"></p>
+        
+                <script>
+                    function showPrompt() {
+                        document.getElementById('overlay').style.display = 'block';
+                        document.getElementById('promptBox').style.display = 'block';
+                    }
+            
+            
+                    function submitPrompt() {
+                        const userInput = document.getElementById('userInput').value;
+                        document.getElementById('result').innerText = `Hei, ${userInput}!`;
+                        
+                
+                        document.getElementById('overlay').style.display = 'none';
+                        document.getElementById('promptBox').style.display = 'none';
+                        
+                
+                        document.getElementById('userInput').value = '';
+                    }
+                </script></div>
             <div class="grid-item item4"> <p> Om meg:</p>
             <p> Jeg heter jakub tocicki, Og jeg er polsk. Jeg går på Amalie Skramm viederegående skole og jeg er 16 år gammel.</p2> 
             <p></p>
