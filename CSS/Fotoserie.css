@@ -1,3 +1,7 @@
+body{
+  background-color: #364444;
+}
+
 .foto-container {
     background-color: #364444;
     display: grid;
