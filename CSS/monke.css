@@ -103,7 +103,23 @@ body{
   background-color: rgb(102, 102, 160);
 }
 
+.item16 {
+  grid-column: 1/ span 2;
+  grid-row: 11;
+}
 
+.item17 {
+  grid-column: 3/ span 1;
+  grid-row: 11;
+  padding: 0px;
+}
+
+.item18 {
+  height: 20px;
+  grid-column: 1 / span 3;
+  grid-row: 12;
+  background-color: rgb(102, 102, 160);
+}
 
 
   #rcorners1 {
