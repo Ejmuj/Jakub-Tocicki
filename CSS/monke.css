@@ -60,6 +60,50 @@ body{
   grid-row: 3;
 }
 
+.item9 {
+  height: 20px;
+  grid-column: 1 / span 3;
+  grid-row: 6;
+  background-color: rgb(102, 102, 160);
+}
+
+.item10 {
+  grid-column: 1/ span 2;
+  grid-row: 7;
+}
+
+.item11 {
+  grid-column: 3/ span 1;
+  grid-row: 7;
+  padding: 0px;
+}
+
+.item12 {
+  height: 20px;
+  grid-column: 1 / span 3;
+  grid-row: 8;
+  background-color: rgb(102, 102, 160);
+}
+
+.item13 {
+  grid-column: 1/ span 2;
+  grid-row: 9;
+}
+
+.item14 {
+  grid-column: 3/ span 1;
+  grid-row: 9;
+  padding: 0px;
+}
+
+.item15 {
+  height: 20px;
+  grid-column: 1 / span 3;
+  grid-row: 10;
+  background-color: rgb(102, 102, 160);
+}
+
+
 
 
   #rcorners1 {
