@@ -121,6 +121,34 @@ body{
   background-color: rgb(102, 102, 160);
 }
 
+.item19 {
+  grid-column: 1/ span 2;
+  grid-row: 13;
+}
+
+.item20 {
+  grid-column: 3/ span 1;
+  grid-row: 13;
+  padding: 0px;
+}
+
+.item21 {
+  height: 20px;
+  grid-column: 1 / span 3;
+  grid-row: 14;
+  background-color: rgb(102, 102, 160);
+}
+
+.item22 {
+  grid-column: 1/ span 2;
+  grid-row: 15;
+}
+
+.item23 {
+  grid-column: 3/ span 1;
+  grid-row: 15;
+  padding: 0px;
+}
 
   #rcorners1 {
     border-radius: 25px;
