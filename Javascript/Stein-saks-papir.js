@@ -21,8 +21,8 @@ function play() {
         document.getElementById("result").innerText = "Robot won";
         computerScore++;
     }
-    document.getElementById("score").innerText = "your score" + humanScore
-    document.getElementById("bot-score").innerText = "bot score" + computerScore
+    document.getElementById("score").innerText = "your score " + humanScore
+    document.getElementById("bot-score").innerText = "bot score " + computerScore
 
     document.getElementById("rock-paper-scizors").innerText = robot
 
