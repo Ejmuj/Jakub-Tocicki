@@ -49,4 +49,29 @@ p {
     grid-row: 2;
   }
 
+  .item3 {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+  }
   /* item 1 og 2 er grid ruter. Det står hvor lange de er og på hvilken plass*/
+
+
+  .myButton {
+    border: none;
+    background-color: azure;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .myButton:hover {
+    background-color: black;
+    font-size: 30px;
+  }
+
+  a:hover {
+    color: rgb(131, 131, 131);
+  }
+
+/* My button er det svarte område som kommer opp når musen er over en lenke */
