@@ -37,6 +37,10 @@ body{
   p {
     font-size: 20px;
   }
+  
+ p3 {
+    font-size: 20px;
+  }
 
   .myButton {
     border: none;
@@ -54,8 +58,7 @@ body{
 
   a:hover {
     color: rgb(131, 131, 131);
-  }
-
-  p3 {
     font-size: 20px;
   }
+
+ 
