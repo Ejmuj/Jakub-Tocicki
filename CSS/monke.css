@@ -7,7 +7,7 @@ body{
     display: grid;
     gap: 5px;
     padding: 5px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; /* gjør at alle gridene er like lange */
   }
 
   .grid-item {
@@ -22,6 +22,8 @@ body{
     height: 100%;
     object-fit: cover;
 }
+
+/* Alt over er stilen på griden og hvor stor et bilde er i en grid */
 
   .item1 {
     grid-column: 1/ span 3;
@@ -168,20 +170,9 @@ body{
   padding: 0px;
 }
 
-  #rcorners1 {
-    border-radius: 25px;
-    padding: 20px;
-    width: 400px;
-    height: 50px; 
-  }
+/* Items er selve rutene og her endrer jeg på dems lengde, plassering på siden og fargene/hvordan de ser ut. I tilleg er det også mellomrom mellom rutene og hvordan mellomromene ser ut.*/
 
-  #rcorners2 {
-    border-radius: 25px;
-    padding: 20px;
-    width: 400px;
-    height: 100px; 
-  }
-
+ 
   a {
     font-size: 16px;
     background-color: none;
@@ -193,17 +184,16 @@ body{
     font-weight: bold;
   }
 
-
-  #rcorners3 {
-    border-radius: 25px;
-    padding: 20px;
-    width: 200px;
-    height: 50px; 
-  }
-
   p {
     font-size: 20px;
   }
+
+  p3 {
+    font-size: 20px;
+
+  }
+
+/*a, a2, p og p3 er tekst og dens stil */
 
   .myButton {
     border: none;
@@ -223,7 +213,4 @@ body{
     color: rgb(131, 131, 131);
   }
 
-  p3 {
-    font-size: 20px;
-
-  }
+/* My button er det svarte område som kommer opp når musen er over en lenke  */

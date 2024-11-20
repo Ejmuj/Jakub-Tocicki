@@ -1,28 +1,17 @@
-let humanScore = 0
-let computerScore = 0
- 
-function play(value) {
-    const choices = ["stein", "papir", "saks"]
-    let robot = choices[Math.floor(Math.random() * 3)]
-    if (!choices.includes(value)) {
-        console.log("Not valid choice")
-    }
-    if (value === robot) {
-        console.log("Tie")
-    }
-    else if (value === "stein" & robot === "saks") {
-        console.log("PLayer won")
-    }
-    else if (value === "papir" & robot === "stein") {
-        console.log("PLayer won")
-    }
-    else if (value === "saks" & robot === "papir") {
-        console.log("PLayer won")
-    }
-    else {
-        console.log("Robot won")
-    }
+function showPrompt() {
+    document.getElementById('overlay').style.display = 'block';
+    document.getElementById('promptBox').style.display = 'block'; // viser boxen hvor du skriver navnet ditt i
+} 
+
+
+function submitPrompt() {
+    const userInput = document.getElementById('userInput').value;
+    document.getElementById('result').innerText = `Hei, ${userInput}!`;
+    
+
+    document.getElementById('overlay').style.display = 'none';
+    document.getElementById('promptBox').style.display = 'none';
+    
+
+    document.getElementById('userInput').value = '';
 }
- 
-play("stein")
- 

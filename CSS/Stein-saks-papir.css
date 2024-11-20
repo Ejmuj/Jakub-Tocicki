@@ -3,7 +3,7 @@
     display: grid;
     gap: 5px;
     padding: 5px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; /* gjør at alle gridene er like lange */
   }
 
   .stein-item {
@@ -19,6 +19,14 @@
     object-fit: cover;
 }
 
+/* Alt over er stilen på griden og hvor stor et bilde er i en grid */
+
+body{
+  background-color: #364444;
+}
+
+/* Body = fargen på bakgrunnen*/
+
 p {
     font-size: 20px;
   }
@@ -29,6 +37,8 @@ p {
 
   }
 
+/* p oh h2 er tekst stil */
+
   .item1 {
     grid-column: 1 / span 3;
     grid-row: 1;
@@ -38,3 +48,5 @@ p {
     grid-column: 1 / span 3;
     grid-row: 2;
   }
+
+  /* item 1 og 2 er grid ruter. Det står hvor lange de er og på hvilken plass*/
