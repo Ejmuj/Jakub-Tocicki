@@ -2,7 +2,7 @@ body{
   background-color: #364444;
 }
 
-.grid-container {
+  .grid-container {
     background-color: #364444;
     display: grid;
     gap: 5px;
