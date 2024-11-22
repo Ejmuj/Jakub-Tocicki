@@ -1,73 +1,60 @@
 body{
+  background-color: #364444;
+}
+
+  .grid-container {
     background-color: #364444;
-  }
-  
-  .skisse-container {
-      background-color: #364444;
-      display: grid;
-      gap: 6px;
-      padding: 5px;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  
-    .skisse-item {
-      background-color: azure;
-      text-align: center;
-      padding: 20px;
-      font-size: 30px;
-    }
-  
-    .skisse-container img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    display: grid;
+    gap: 5px;
+    padding: 5px;
+    grid-template-columns: 1fr 1fr 1fr; /* gjør at alle gridene er like lange */
   }
 
-  a {
-    font-size: 16px;
-    background-color: none;
-  }
-
-  a2 {
-    font-size: 30px;
-    background-color: none;
-    font-weight: bold;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
- p3 {
-    font-size: 20px;
-  }
-
-  .myButton {
-    border: none;
-    background-color: rgb(102, 102, 160);;
-    padding: 10px 20px;
+  .grid-item {
+    background-color: azure;
     text-align: center;
-    font-size: 16px;
-    cursor: pointer;
+    padding: 20px;
+    font-size: 30px;
   }
 
-  .myButton:hover {
-    background-color: black;
-    font-size: 10px;
-  }
+  .grid-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-  a:hover {
-    color: rgb(131, 131, 131);
-    font-size: 20px;
-  }
+.myButton {
+  border: none;
+  background-color: rgb(102, 102, 160);;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
 
+.myButton:hover {
+  background-color: black;
+  font-size: 10px;
+}
+
+a:hover {
+  color: rgb(131, 131, 131);
+  font-size: 20;
+}
+
+/* My button er det svarte område som kommer opp når musen er over en lenke */
  
   .item1 {
-    grid-column: 1 span 3;
+    grid-column: 1 / span 3;
     grid-row: 1;
   }
 
   .item2 {
-    grid-column: 1 span 3;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+
+  .item3{
+    grid-column: 3 / span 1;
     grid-row: 2;
   }
