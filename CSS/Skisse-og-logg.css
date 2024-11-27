@@ -5,7 +5,7 @@ body{
   .grid-container {
     background-color: #364444;
     display: grid;
-    gap: 5px;
+    gap: 2px;
     padding: 5px;
     grid-template-columns: 1fr 1fr 1fr; /* gjør at alle gridene er like lange */
   }
@@ -94,6 +94,21 @@ a:hover {
   }
 
   .item8{
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 1;
     grid-row: 8;
+  }
+
+  .item9{
+    grid-column: 2 / span 3;
+    grid-row: 8;
+  }
+
+  .item10{
+    grid-column: 1 / span 1;
+    grid-row: 9;
+  }
+
+  .item11{
+    grid-column: 2 / span 3;
+    grid-row: 9;
   }
