@@ -22,7 +22,7 @@ function play() {
         computerScore++; // øker computerScore slik at jeg kan skrive ut senere hvor mye poeng bot-en har
     }
     document.getElementById("score").innerText = "Dine Poeng: " + humanScore 
-    document.getElementById("bot-score").innerText = "Bot-en sine poeng: " + computerScore //den og den over printer ut hvor mye poeng hver spiller har
+    document.getElementById("bot-score").innerText = "Roboten sine poeng: " + computerScore //den og den over printer ut hvor mye poeng hver spiller har
     document.getElementById("rock-paper-scizors").innerText = robot //skriver ut hva bot-en valgdte mellom stein saks og papir
 
 
