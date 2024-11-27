@@ -65,50 +65,70 @@ a:hover {
     grid-row: 3;
   }
 
-  .item3{
+  .item3 {
     grid-column: 3 / span 1;
     grid-row: 3;
     padding: 0px;
   }
 
-  .item4{
+  .item4 {
     grid-column: 1 / span 3;
     grid-row: 4;
     background-color: rgb(102, 102, 160);
   }
 
-  .item5{
+  .item5 {
     grid-column: 1 / span 3;
     grid-row: 5;
   }
 
-  .item6{
+  .item6 {
     grid-column: 1 / span 3;
     grid-row: 6;
     background-color: rgb(102, 102, 160);
   }
 
-  .item7{
+  .item7 {
     grid-column: 1 / span 3;
     grid-row: 7;
   }
 
-  .item8{
+  .item8 {
     grid-column: 1 / span 1;
     grid-row: 8;
   }
 
-  .item9{
+  .item9 {
     grid-column: 2 / span 3;
     grid-row: 8;
   }
 
-  .item10{
+  .item10 {
     grid-column: 1 / span 1;
     grid-row: 9;
   }
 
-  .item11{
+  .item11 {
     grid-column: 2 / span 3;
     grid-row: 9;
+  }
+
+  .item12 {
+    grid-column: 1 / span 1;
+    grid-row: 10;
+  }
+
+  .item13 {
+    grid-column: 2 / span 3;
+    grid-row: 10;
+  }
+
+  .item14 {
+    grid-column: 1 / span 1;
+    grid-row: 11;
+  }
+
+  .item15 {
+    grid-column: 2 / span 3;
+    grid-row: 11;
   }
