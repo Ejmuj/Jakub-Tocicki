@@ -63,6 +63,7 @@ a:hover {
     grid-column: 1 / span 3;
     grid-row: 4;
     background-color: rgb(102, 102, 160);
+    text-align: left;
   }
 
   .item4 {
