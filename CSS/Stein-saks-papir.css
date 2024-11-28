@@ -53,7 +53,6 @@ p {
     grid-column: 1 / span 3;
     grid-row: 3;
     background-color: rgb(102, 102, 160);
-    text-align: left;
   }
   /* item 1 og 2 er grid ruter. Det står hvor lange de er og på hvilken plass*/
 
