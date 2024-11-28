@@ -32,6 +32,7 @@ body{
   .item2 {
     grid-column: 3/ span 1;
     grid-row: 2;
+    background-color: rgb(102, 102, 160);
   }
 
   .item3 {
@@ -42,7 +43,7 @@ body{
 
   .myButton {
     border: none;
-    background-color: azure;
+    background-color: rgb(102, 102, 160);
     padding: 10px 20px;
     text-align: center;
     font-size: 16px;
@@ -56,4 +57,8 @@ body{
 
   a:hover {
     color: white;
+  }
+
+  a {
+    color: rgb(255, 221, 161);
   }
