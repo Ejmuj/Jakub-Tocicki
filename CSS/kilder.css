@@ -2,7 +2,7 @@ body{
     background-color: #364444;
   }
   
-    .grid-container {
+    .kilde-container {
       background-color: #364444;
       display: grid;
       gap: 5px;
@@ -10,14 +10,14 @@ body{
       grid-template-columns: 1fr 1fr 1fr; /* gjør at alle gridene er like lange */
     }
   
-    .grid-item {
+    .kilde-item {
       background-color: azure;
       text-align: center;
       padding: 20px;
       font-size: 30px;
     }
   
-    .grid-container img {
+    .kilde-container img {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -42,9 +42,15 @@ body{
     font-size: 20;
   }
 
+  a {
+    font-size: 16px;
+    color: rgb(255, 221, 161);
+  }
+
   .item1 {
     grid-column: 1 / span 3;
     grid-row: 1;
+    text-align: center;
   }
 
   .item2 {
@@ -56,4 +62,5 @@ body{
   .item3 {
     grid-column: 1 / span 3;
     grid-row: 3;
+    background-color: rgb(14, 34, 54);
   }
