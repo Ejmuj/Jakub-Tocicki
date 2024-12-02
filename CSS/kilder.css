@@ -64,3 +64,9 @@ body{
     grid-row: 3;
     background-color: rgb(14, 34, 54);
   }
+
+  .item4 {
+    grid-column: 1/ span 3;
+    grid-row: 4;
+    padding: 0px;
+  }
