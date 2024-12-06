@@ -1,44 +1,3 @@
-.stein-container {
-    background-color: #364444;
-    display: grid;
-    gap: 5px;
-    padding: 5px;
-    grid-template-columns: 1fr 1fr 1fr; /* gjør at alle gridene er like lange */
-  }
-
-  .stein-item {
-    background-color: azure;
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
-    border-radius: 6px;
-  }
-
-  .stein-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Alt over er stilen på griden og hvor stor et bilde er i en grid */
-
-body{
-  background-color: #364444;
-}
-
-/* Body = fargen på bakgrunnen*/
-
-p {
-    font-size: 20px;
-  }
-
-
-  h2 {
-    font-size: 40px;
-
-  }
-
-/* p oh h2 er tekst stil */
 
   .item1 {
     grid-column: 1 / span 3;
@@ -57,27 +16,3 @@ p {
   }
   /* item 1 og 2 er grid ruter. Det står hvor lange de er og på hvilken plass*/
 
-
-  .myButton {
-    border: none;
-    background-color: rgb(102, 102, 160);
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 20px;
-    cursor: pointer;
-  }
-
-  .myButton:hover {
-    background-color: black;
-    font-size: 30px;
-  }
-
-  a:hover {
-    color: rgb(255, 255, 255);
-  }
-
-  a {
-    color: rgb(255, 221, 161);
-  }
-  
-/* My button er det svarte område som kommer opp når musen er over en lenke */

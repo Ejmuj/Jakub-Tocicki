@@ -1,0 +1,71 @@
+body{
+    background-color: #364444;
+  }
+  
+    .grid-container {
+      background-color: #364444;
+      display: grid;
+      gap: 5px;
+      padding: 5px;
+      grid-template-columns: 1fr 1fr 1fr; /* gjør at alle gridene er like lange */
+    }
+  
+    .grid-item {
+      background-color: azure;
+      text-align: center;
+      padding: 20px;
+      font-size: 30px;
+      border-radius: 6px;
+    }
+  
+    .grid-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  
+  /* Alt over er stilen på griden og hvor stor et bilde er i en grid */
+
+  a {
+    font-size: 16px;
+    color: rgb(255, 221, 161);
+  }
+
+  a2 {
+    font-size: 30px;
+    background-color: none;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  p3 {
+    font-size: 20px;
+
+  }
+
+/*a, a2, p og p3 er tekst og dens stil */
+
+  .myButton {
+    border: none;
+    background-color: rgb(102, 102, 160);;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .myButton:hover {
+    background-color: black;
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 20;
+  }
+
+/* My button er det svarte område som kommer opp når musen er over en lenke */
+
