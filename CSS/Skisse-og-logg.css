@@ -102,3 +102,13 @@
     grid-column: 2 / span 3;
     grid-row: 13;
   }
+
+  .item20 {
+    grid-column: 1 / span 1;
+    grid-row: 14;
+  }
+
+  .item21 {
+    grid-column: 2 / span 3;
+    grid-row: 14;
+  }
