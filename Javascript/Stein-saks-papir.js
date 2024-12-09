@@ -1,6 +1,5 @@
 let humanScore = 0 //Poeng
 let computerScore = 0 //Poeng
-let uavgjordt = 0 // poeng
 
 document.getElementById("play").addEventListener("click", play) //Her får jeg til at min knapp er trykkelig
  
@@ -12,16 +11,14 @@ function play() {
         console.log("Not valid choice") // fielmelding om man ikke ha valgt noe akseptabelt
     }
     if (value === robot) {
-        document.getElementById("result").innerText = "Det er uavgjordt";
-        uavgjordt++; // ingen får poeng
-
+        document.getElementById("result").innerText = "It's a tie";
     } else if ((value === "stein" && robot === "Saks") ||
                (value === "papir" && robot === "Stein") || // denne koden skriver ut hva som skjer om en av disse 3 scenarioene skjer
                (value === "saks" && robot === "Papir")) {  
-        document.getElementById("result").innerText = "Player vant";
+        document.getElementById("result").innerText = "Player won";
         humanScore++; // øker humanScore slik at jeg kan skrive ut senere hvor mye poeng player har
     } else {
-        document.getElementById("result").innerText = "Robot vant";
+        document.getElementById("result").innerText = "Robot won";
         computerScore++; // øker computerScore slik at jeg kan skrive ut senere hvor mye poeng bot-en har
     }
     document.getElementById("score").innerText = "Dine Poeng: " + humanScore 
