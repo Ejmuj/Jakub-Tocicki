@@ -112,3 +112,13 @@
     grid-column: 2 / span 3;
     grid-row: 14;
   }
+
+  .item22 {
+    grid-column: 1 / span 1;
+    grid-row: 15;
+  }
+
+  .item23 {
+    grid-column: 2 / span 3;
+    grid-row: 1;
+  }
