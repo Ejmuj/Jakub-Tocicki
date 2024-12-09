@@ -21,32 +21,32 @@ const winningConditions = [
 
 //funksjon for å lage brett
 function createBoard() {
-  board.innerHTML = ""; 
-  gameState = Array(9).fill(null); // fortsatt lager enn arry med 9 nuller
-  gameActive = true;
-  winnerText.textContent = "";
-  currentPlayer = "X";
+  board.innerHTML = ""; // sletter/clearer allt inni boardet
+  gameState = Array(9).fill(null); // fortsatt lager enn arry med 9 nuller som kan bli tatt over av X eller O
+  gameActive = true; // gjør at spillet er på
+  winnerText.textContent = ""; // fjerner all tekst
+  currentPlayer = "X"; // setter spillern til X
   
   for (let i = 0; i < 9; i++) {
-    const cell = document.createElement("div");
-    cell.classList.add("cell");
-    cell.dataset.index = i; 
+    const cell = document.createElement("div"); //lager felt
+    cell.classList.add("cell"); //Gir navn til feltet slik at jeg kan endre på det senere i css
+    cell.dataset.index = i; //lar meg lage nye data atributter til en html element
     cell.addEventListener("click", handleCellClick); // lager en knapp/felt du kan trykke på
-    board.appendChild(cell);
+    board.appendChild(cell); // her leegger det cell elementen til board elementet 
   }
 }
 
 
 function handleCellClick(e) {
-  const cell = e.target;
-  const index = cell.dataset.index;
+  const cell = e.target; // får html delen som var trykket til å reperesentere et felt på boardet
+  const index = cell.dataset.index; // dette henter data-index atributten av feltet som var trykket
 
 
-  if (gameState[index] || !gameActive) return;
+  if (gameState[index] || !gameActive) return; // Denne koden sjekker om spillet enten ikke er aktivt eller om cellen du trykket på er allerede fylt, som forhider klikk på allerede fylte celler eller å gjøre noe etter spillet er over.
 
 
-  cell.textContent = currentPlayer;
-  cell.classList.add("taken");
+  cell.textContent = currentPlayer; // fyller feltet med symbolet til spilleren
+  cell.classList.add("taken"); // lager en ny classe som kan indikere at et felt er tatt
   gameState[index] = currentPlayer;
 
 
@@ -62,7 +62,7 @@ function handleCellClick(e) {
     return;
   }
 
-  // bytter spilleren
+  // bytter spilleren fra x til O
   currentPlayer = currentPlayer === "X" ? "O" : "X";
 }
 

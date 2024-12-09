@@ -19,7 +19,7 @@
   .item4 {
     grid-column: 1 / span 3;
     grid-row: 4;
-    background-color: rgb(102, 102, 160);
+    background-color: azure;
   }
 
 
@@ -44,5 +44,5 @@
   .winner {
     margin-top: 20px;
     font-size: 20px;
-    color: green;
+    color: black;
   }
