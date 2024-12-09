@@ -36,6 +36,13 @@ function createBoard() {
   }
 }
 
+function checkWinner() {
+    return winningConditions.some(condition => { // sjekker om noen av kondisjonene fra winningCondition over er fulfylt
+      const [a, b, c] = condition; // Har ingen peiling men jeg antar at det handler om at den kan dele opp vinnertallene i tre slik at koden nedenfor fungerer
+      return gameState[a] && gameState[a] === gameState[b] && gameState[a] === gameState[c]; // sjekker om a, b eller c har samme veri som X, O eller de andre tallene
+    });
+  }
+  
 
 function handleCellClick(e) {
   const cell = e.target; // får html delen som var trykket til å reperesentere et felt på boardet
@@ -47,19 +54,19 @@ function handleCellClick(e) {
 
   cell.textContent = currentPlayer; // fyller feltet med symbolet til spilleren
   cell.classList.add("taken"); // lager en ny classe som kan indikere at et felt er tatt
-  gameState[index] = currentPlayer;
+  gameState[index] = currentPlayer; //opdaterer gamestate arrayen slik at det klikede feltet har en X eller O symbol som indikerer at spilleren har gjordt et grep
 
 
   if (checkWinner()) {
-    winnerText.textContent = `${currentPlayer} Wins!`;
-    gameActive = false;
-    return;
+    winnerText.textContent = `${currentPlayer} Wins!`; // Om en spiller vinner vil den returnere X eller O basert på hvem som vant
+    gameActive = false; // deaktiverer spillet
+    return; // returnerer
   }
 
-  if (gameState.every(cell => cell)) {
-    winnerText.textContent = "It's a Draw!";
-    gameActive = false;
-    return;
+  if (gameState.every(cell => cell)) {  // sjekker om alle feltene er fylt
+    winnerText.textContent = "It's a Draw!"; // Om alle feltene er fylt Skriver det ut It's a draw
+    gameActive = false; // deaktiverer spillet
+    return; // returnerer
   }
 
   // bytter spilleren fra x til O
@@ -67,17 +74,17 @@ function handleCellClick(e) {
 }
 
 
-function checkWinner() {
-  return winningConditions.some(condition => {
-    const [a, b, c] = condition;
-    return gameState[a] && gameState[a] === gameState[b] && gameState[a] === gameState[c];
-  });
+
+
+function resetGame() { //funksjon som restarter spillet gjennom å slette alt innholdet i feltene
+  createBoard(); //ingenting i createBoard som får feltene til å tømmes
 }
 
 
-function resetGame() {
-  createBoard();
-}
+createBoard(); //forklart funksjonen over
 
 
-createBoard();
+
+// Jeg skal være ærlig og si at jeg ikke forstår altformye av det som står her,
+// men jo mer jeg jobber med denne koden jo mer forstår jeg.
+// Javascript er ikke så enkelt.
