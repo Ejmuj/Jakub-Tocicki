@@ -1,5 +1,6 @@
 let humanScore = 0 //Poeng
 let computerScore = 0 //Poeng
+let uavgjordt = 0 // poeng
 
 document.getElementById("play").addEventListener("click", play) //Her får jeg til at min knapp er trykkelig
  
@@ -12,6 +13,8 @@ function play() {
     }
     if (value === robot) {
         document.getElementById("result").innerText = "Det er uavgjordt";
+        uavgjordt++; // ingen får poeng
+
     } else if ((value === "stein" && robot === "Saks") ||
                (value === "papir" && robot === "Stein") || // denne koden skriver ut hva som skjer om en av disse 3 scenarioene skjer
                (value === "saks" && robot === "Papir")) {  
