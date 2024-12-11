@@ -58,13 +58,13 @@ function handleCellClick(e) {
 
 
   if (checkWinner()) {
-    winnerText.textContent = `${currentPlayer} Wins!`; // Om en spiller vinner vil den returnere X eller O basert på hvem som vant
+    winnerText.textContent = `${currentPlayer} Vant!`; // Om en spiller vinner vil den returnere X eller O basert på hvem som vant
     gameActive = false; // deaktiverer spillet
     return; // returnerer
   }
 
   if (gameState.every(cell => cell)) {  // sjekker om alle feltene er fylt
-    winnerText.textContent = "It's a Draw!"; // Om alle feltene er fylt Skriver det ut It's a draw
+    winnerText.textContent = "Det er uavgjordt!"; // Om alle feltene er fylt Skriver det ut It's a draw
     gameActive = false; // deaktiverer spillet
     return; // returnerer
   }

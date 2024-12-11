@@ -29,6 +29,7 @@
     grid-template-rows: repeat(3, 100px);
     gap: 5px;
   }
+  
   .cell {
     display: flex; /* viser en flexbox (flexbox er en fleksibel grid/box */
     align-items: center;
