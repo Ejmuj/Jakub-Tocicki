@@ -39,9 +39,11 @@
     font-size: 24px;
     cursor: pointer;
   }
+
   .cell.taken {
     pointer-events: none;
   }
+  
   .winner {
     margin-top: 20px;
     font-size: 20px;
