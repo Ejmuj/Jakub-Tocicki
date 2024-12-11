@@ -1,0 +1,15 @@
+.item1{
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+.item2{
+    height: 20px;
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    background-color: rgb(102, 102, 160);
+}
+
+.item3{
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
