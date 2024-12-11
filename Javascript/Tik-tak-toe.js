@@ -85,6 +85,6 @@ createBoard(); //forklart funksjonen over
 
 
 
-// Jeg skal være ærlig og si at jeg ikke forstår altformye av det som står her,
+// Jeg skal være ærlig og si at jeg ikke forstår alt av det som står her,
 // men jo mer jeg jobber med denne koden jo mer forstår jeg.
 // Javascript er ikke så enkelt.
