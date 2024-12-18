@@ -12,7 +12,7 @@ function play() {
     let resultMessage;
 
     if (value === robot) {
-        resultMessage = "Det er uavgjordt!"; //om resultatet er lik roboten sin kommer denne medlingen opp
+        resultMessage = "Det ble uavgjordt!"; //om resultatet er lik roboten sin kommer denne medlingen opp
     } 
     
     else if (
