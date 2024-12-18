@@ -16,21 +16,21 @@ function play() {
     } 
     
     else if (
-        (value === "stein" && robot === "saks") ||
+        (value === "stein" && robot === "saks") || // else if statement som sier om en av disse kondisjonene blir fullført vil det nedefor i koden skje helt til du lukker kurly brackets
         (value === "papir" && robot === "stein") ||
         (value === "saks" && robot === "papir")
     ) {
         resultMessage = "Du vant!";
-        humanScore++; // Spiller får poeng
+        humanScore++; // Spillerens poeng
     } 
     
     else {
         resultMessage = "Roboten vant!";
-        computerScore++; // Robot får poeng
+        computerScore++; // Robotens poeng
     }
 
     // Oppdater HTML
-    document.getElementById("result").innerText = resultMessage;
+    document.getElementById("result").innerText = resultMessage; // denne og de tre andre nedenfor får teksten i html til å endre
     document.getElementById("rock-paper-scizors").innerText = "Roboten valgte: " + robot;
     document.getElementById("score").innerText = "Dine Poeng: " + humanScore;
     document.getElementById("bot-score").innerText = "Roboten sine poeng: " + computerScore;
