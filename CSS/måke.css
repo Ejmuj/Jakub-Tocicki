@@ -1,7 +1,7 @@
 
   .item1 {
     grid-column: 1/ span 3;
-    grid-row: 3;
+    grid-row: 4;
     padding: 0px;
   }
   
@@ -15,4 +15,9 @@
     grid-column: 1/ span 3;
     grid-row: 1;
     height: 20px;
+  }
+
+  .item4 {
+    grid-column: 1/ span 3;
+    grid-row: 3;
   }
