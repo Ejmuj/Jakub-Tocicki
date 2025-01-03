@@ -6,12 +6,8 @@ function showPrompt() {
 
 function submitPrompt() {
     const userInput = document.getElementById('userInput').value;
-    document.getElementById('result').innerText = `Hei, ${userInput}!`;
-    
-
+    document.getElementById('result').innerText = `Hei, ${userInput}!`; // Skrivr ut en melding basert på hva imput leverte
     document.getElementById('overlay').style.display = 'none'; 
     document.getElementById('promptBox').style.display = 'none'; // Dette er Knappen du kan trykke på for å levere svaret
-    
-
     document.getElementById('userInput').value = '';
 }
