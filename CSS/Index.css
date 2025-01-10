@@ -1,144 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+  
   .item1 {
     grid-column: 1 / span 3;
     grid-row: 1;
   }
  
-  .item3 {
+  .item2 {
     grid-column: 1 / span 3;
-    grid-row: 2;
+    grid-row: 3;
     background-color: rgb(102, 102, 160);
   }
 
+  .item3 {
+    grid-column: 1/ span 3;
+    grid-row: 4;
+  }
+
   .item4 {
-    grid-column: 1/ span 2;
+    grid-column: 1 / span 2;
     grid-row: 5;
   }
 
   .item5 {
-    height: 20px;
+    grid-column: 3 / span 3;
+    grid-row: 5;
+    padding: 0px;
+  }
+
+  .item6 {
     grid-column: 1 / span 3;
-    grid-row: 4;
+    grid-row: 6;
     background-color: rgb(102, 102, 160);
   }
 
-.item7 {
-  grid-column: 3/ span 1;
-  grid-row: 5;
-  padding: 0px;
-}
+  .item7 {
+    grid-column: 1 / span 2;
+    grid-row: 7;
+  }
 
-.item8 {
-  grid-column: 1/ span 3;
-  grid-row: 3;
-}
+  .item8 {
+    grid-column: 3 / span 3;
+    grid-row: 7;
+    padding: 0px;
+  }
 
-.item9 {
-  height: 20px;
-  grid-column: 1 / span 3;
-  grid-row: 6;
-  background-color: rgb(102, 102, 160);
-}
+  .item9 {
+    grid-column: 1 / span 3;
+    grid-row: 8;
+    background-color: rgb(102, 102, 160);
+  }
 
-.item10 {
-  grid-column: 1/ span 2;
-  grid-row: 7;
-}
+  .item10 {
+    grid-column: 1 / span 2;
+    grid-row: 9;
+  }
 
-.item11 {
-  grid-column: 3/ span 1;
-  grid-row: 7;
-  padding: 0px;
-}
+  .item11 {
+    grid-column: 3 / span 3;
+    grid-row: 9;
+    padding: 0px;
+  }
 
-.item12 {
-  height: 20px;
-  grid-column: 1 / span 3;
-  grid-row: 8;
-  background-color: rgb(102, 102, 160);
-}
+  .item12 {
+    grid-column: 1 / span 3;
+    grid-row: 10;
+    background-color: rgb(102, 102, 160);
+  }
 
-.item13 {
-  grid-column: 1/ span 2;
-  grid-row: 9;
-}
+  .item13 {
+    grid-column: 1 / span 2;
+    grid-row: 11;
+  }
 
-.item14 {
-  grid-column: 3/ span 1;
-  grid-row: 9;
-  padding: 0px;
-}
+  .item14 {
+    grid-column: 3 / span 3;
+    grid-row: 11;
+    padding: 0px;
+  }
 
-.item15 {
-  height: 20px;
-  grid-column: 1 / span 3;
-  grid-row: 10;
-  background-color: rgb(102, 102, 160);
-}
+  .item15 {
+    grid-column: 1 / span 3;
+    grid-row: 12;
+    background-color: rgb(102, 102, 160);
+  }
 
-.item16 {
-  grid-column: 1/ span 2;
-  grid-row: 11;
-}
+  .item16 {
+    grid-column: 1 / span 2;
+    grid-row: 13;
+  }
 
-.item17 {
-  grid-column: 3/ span 1;
-  grid-row: 11;
-  padding: 0px;
-}
+  .item17 {
+    grid-column: 3 / span 3;
+    grid-row: 13;
+    padding: 0px;
+  }
 
-.item18 {
-  height: 20px;
-  grid-column: 1 / span 3;
-  grid-row: 12;
-  background-color: rgb(102, 102, 160);
-}
+  .item18 {
+    grid-column: 1 / span 3;
+    grid-row: 14;
+    background-color: rgb(102, 102, 160);
+  }
 
-.item19 {
-  grid-column: 1/ span 2;
-  grid-row: 13;
-}
+  .item19 {
+    grid-column: 1 / span 2;
+    grid-row: 15;
+  }
 
-.item20 {
-  grid-column: 3/ span 1;
-  grid-row: 13;
-  padding: 0px;
-}
+  .item20 {
+    grid-column: 3 / span 3;
+    grid-row: 15;
+    padding: 0px;
+  }
 
-.item21 {
-  height: 20px;
-  grid-column: 1 / span 3;
-  grid-row: 14;
-  background-color: rgb(102, 102, 160);
-}
+  .item21 {
+    grid-column: 1 / span 3;
+    grid-row: 16;
+    background-color: rgb(102, 102, 160);
+  }
 
-.item22 {
-  grid-column: 1/ span 2;
-  grid-row: 15;
-}
+  .item22 {
+    grid-column: 1 / span 2;
+    grid-row: 17;
+  }
 
-.item23 {
-  grid-column: 3/ span 1;
-  grid-row: 15;
-  padding: 0px;
-}
+  .item23 {
+    grid-column: 3 / span 3;
+    grid-row: 17;
+    padding: 0px;
+  }
 
-.item24 {
-  height: 20px;
-  grid-column: 1 / span 3;
-  grid-row: 16;
-  background-color: rgb(102, 102, 160);
-}
 
-.item25 {
-  grid-column: 1/ span 2;
-  grid-row: 17;
-}
-
-.item26 {
-  grid-column: 3/ span 1;
-  grid-row: 17;
-  padding: 0px;
-}
 
 
 /* Items er selve rutene og her endrer jeg på dems lengde, plassering på siden og fargene/hvordan de ser ut. I tilleg er det også mellomrom mellom rutene og hvordan mellomromene ser ut.*/

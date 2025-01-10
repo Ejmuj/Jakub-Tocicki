@@ -1,0 +1,39 @@
+.menu-container {
+    position: relative;
+}
+
+.menu-button {
+    background-color: azure;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu-items {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 260px;
+}
+
+.menu-items li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-items li:hover {
+    background-color: #f2f2f2;
+}
+
+.menu-items li:last-child {
+    border-bottom: none;
+}

@@ -5,6 +5,7 @@
         </title>
         <link rel="stylesheet" href="CSS/Style.css">
         <link rel="stylesheet" href="CSS/Index.css">
+        <link rel="stylesheet" href="CSS/Meny.css">
         
         
 
@@ -13,21 +14,29 @@
 <!--dette er en komentar-->
 
     <body>
-        <div class="grid-container"> <!-- griden -->
-            <div class="grid-item item1"><a2>Jakub Tocicki</a2></div>
-            <div class="grid-item item3">
-                <button class="myButton"><a href="index.html">Hjem</a></button>
-                <button class="myButton"><a href="https://www.cookieclicker.com/" target="_blank">Cookie clicker</a></button>
-                <button class="myButton"><a href="HTML/måke.html">Måke bilde</a></button>
-                <button class="myButton"><a href="https://ejmuj.github.io/tourisma/" target="_blank">Engelsk side</a></button>
-                <button class="myButton"><a href="HTML/Fotoserie.html">Fotoserie</a></button>
-                <button class="myButton"><a href="HTML/Mitt spill.html">Mitt spill</a></button>
-                <button class="myButton"><a href="HTML/Skisse-og-logg.html">Skisse og Logg</a></button>
-                <button class="myButton"><a href="HTML/kilder.html">Kilder</a></button>
-                <button class="myButton"><a href="HTML/kalkulator.html">Kalkulator</a></button>
+        <div class="menu-container">
             
+                <ul class="menu-items" id="menu">
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="HTML/måke.html">Måke bilde</a></li>
+                    <li><a href="HTML/Fotoserie.html">Fotoserie</a></li>
+                    <li><a href="HTML/Mitt spill.html">Mitt spill</a></li>
+                    <li><a href="HTML/Skisse-og-logg.html">Skisse og Logg</a></li>
+                    <li><a href="HTML/kilder.html">Kilder</a></li>
+                    <li><a href="HTML/kalkulator.html">Kalkulator</a></li>
+                    <li><a href="https://ejmuj.github.io/tourisma/" target="_blank">Engelsk side</a></li>
+                    <li><a href="https://www.cookieclicker.com/" target="_blank">Cookie clicker</a></li>
+                </ul>
+            </div>
+            <div class="grid-container"> <!-- griden -->
+            <div class="grid-item item1">
+                <div style="float: left;"><button class="menu-button" onclick="toggleMenu()">|||</button></div>
+                <h1>Jakub Tocicki</h1></div>
+            <div class="grid-item item2">
             </div> <!-- undertittler som sender deg til en annen side --> 
-            <div class="grid-item item8">
+
+            
+            <div class="grid-item item3">
                 <div id="promptBox">
                 <p>Skriv ditt navn her:</p>
                 <input type="text" id="userInput" placeholder="Ditt navn her">
@@ -38,7 +47,7 @@
         
                 <script src="Javascript/index.js"></script></div>
             <div class="grid-item item4"> <p> Om meg:</p>
-            <p> Jeg heter Jakub Tocicki, og jeg er polsk. Jeg går på Amalie Skram videregående skole og jeg er 16 år gammel. </p2> 
+            <p> Jeg heter Jakub Tocicki, og jeg er polsk. Jeg går på Amalie Skram videregående skole og jeg er 16 år gammel. </p> 
             <p> </p>
             <p>Dette er område hvor jeg bor i:</p>
             <p></p>
@@ -46,31 +55,31 @@
            
 
             </div>
-            <div class="grid-item item5"></div>
-            <div class="grid-item item7"><a href="" target="_blank"><img src="bilder/WIN_20240925_12_42_04_Pro.jpg"></a></a></div> <!-- Jeg vil at bilde av meg skal være litt større enn de andre fordi, En: Jeg har et kart som er større og jeg ville ha det ved siden av bilde mitt. To: Det seperere innholdet fra første og andre halvdel av siden hvor det står informasjon nedover og lenker oppåver. -->
+            <div class="grid-item item5"><a href="" target="_blank"><img src="bilder/WIN_20240925_12_42_04_Pro.jpg"></a></a></div> <!-- Jeg vil at bilde av meg skal være litt større enn de andre fordi, En: Jeg har et kart som er større og jeg ville ha det ved siden av bilde mitt. To: Det seperere innholdet fra første og andre halvdel av siden hvor det står informasjon nedover og lenker oppåver. -->
+            <div class="grid-item item6"></div>
+            <div class="grid-item item7"><p>Jeg liker å spille dataspill som Subnautica, Hollow Knight, Minecraft eller Dragon Ball Sparking Zero.</p></div>
+            <div class="grid-item item8"><a href="https://en.bandainamcoent.eu/dragon-ball/dragon-ball-sparking-zero" target="_blank"><img src="bilder/spzero.jpg"></a></div>
             <div class="grid-item item9"></div>
-            <div class="grid-item item10"><p>Jeg liker å spille dataspill som Subnautica, Hollow Knight, Minecraft eller Dragon Ball Sparking Zero.</p></div>
-            <div class="grid-item item11"><a href="https://en.bandainamcoent.eu/dragon-ball/dragon-ball-sparking-zero" target="_blank"><img src="bilder/spzero.jpg"></a></div>
+            <div class="grid-item item10"><p>Jeg liker å se på Anime, Noen av mine favoritter er That time i got reincarnated as a slime, Dragon Ball, One Piece og Jojos Bizzare Adventure (mangaen er bedre). </p></div>
+            <div class="grid-item item11"><a href="https://www.amazon.com/JoJos-Bizarre-Adventure-Season-Golden/dp/B08FXRLWN4" target="_blank"><img src="bilder/jojo.jpg"></a></div>
             <div class="grid-item item12"></div>
-            <div class="grid-item item13"><p>Jeg liker å se på Anime, Noen av mine favoritter er That time i got reincarnated as a slime, Dragon Ball, One Piece og Jojos Bizzare Adventure (mangaen er bedre). </p></div>
-            <div class="grid-item item14"><a href="https://www.amazon.com/JoJos-Bizarre-Adventure-Season-Golden/dp/B08FXRLWN4" target="_blank"><img src="bilder/jojo.jpg"></a></div>
+            <div class="grid-item item13"><p> Faglig er jeg ganske glad i å programere, og jeg liker naturfag. Jeg har en del erfaring i Python og en god del erfaring i Html og css. Jeg har laget to sider hvor dette er min andre. Jeg har noe erfaring i javascript. Jeg har også litt erfaring i Photoshop. Jeg har brukt en del adobe premier pro og audition. Vert med på å planlegge og spille inn en film. Jeg har også tatt en del bilder.</p></div>
+            <div class="grid-item item14"><a href="https://www.pexels.com/search/html/" target="_blank"><img src="bilder/html.jpeg"></a></div>
             <div class="grid-item item15"></div>
-            <div class="grid-item item16"><p> Faglig er jeg ganske glad i å programere, og jeg liker naturfag. Jeg har en del erfaring i Python og en god del erfaring i Html og css. Jeg har laget to sider hvor dette er min andre. Jeg har noe erfaring i javascript. Jeg har også litt erfaring i Photoshop. Jeg har brukt en del adobe premier pro og audition. Vert med på å planlegge og spille inn en film. Jeg har også tatt en del bilder.</p></div>
-            <div class="grid-item item17"><a href="https://www.pexels.com/search/html/" target="_blank"><img src="bilder/html.jpeg"></a></div>
+            <div class="grid-item item16"><p>Min favorittmat er en polsk rett kalt Pierogi.</p></div>
+            <div class="grid-item item17"><a href="https://pl.pikbest.com/backgrounds/pork-dumplings-with-minced-and-herbs-on-black-table_9613831.html" target="_blank"><img src="bilder/pierogi.webp"></a></div>
             <div class="grid-item item18"></div>
-            <div class="grid-item item19"><p>Min favorittmat er en polsk rett kalt Pierogi.</p></div>
-            <div class="grid-item item20"><a href="https://pl.pikbest.com/backgrounds/pork-dumplings-with-minced-and-herbs-on-black-table_9613831.html" target="_blank"><img src="bilder/pierogi.webp"></a></div>
+            <div class="grid-item item19"><p>Jeg elsker Abba og Queen. De er to av mine favortitt band.</p></div>
+            <div class="grid-item item20"><a href="https://wallpaper.mob.org/pc/image/music-queen-classic_rock-hard_rock-queen_band-806010.html" target="_blank"><img src="bilder/queen.jpeg"></a></div>
             <div class="grid-item item21"></div>
-            <div class="grid-item item22"><p>Jeg elsker Abba og Queen. De er to av mine favortitt band.</p></div>
-            <div class="grid-item item23"><a href="https://wallpaper.mob.org/pc/image/music-queen-classic_rock-hard_rock-queen_band-806010.html" target="_blank"><img src="bilder/queen.jpeg"></a></div>
-            <div class="grid-item item24"></div>
-            <div class="grid-item item25"><p>Min favoritt film er Lord of the Rings: Return of the king (extended version). </p></div>
-            <div class="grid-item item26"><a href="https://www.primevideo.com/detail/The-Lord-of-the-Rings-The-Return-of-the-King/0NSGBFYAQDZQKEC8BBWKT8GILJ"  target="_blank"><img src="bilder/Return-of-the-king.jpg"></a></div>
+            <div class="grid-item item22"><p>Min favoritt film er Lord of the Rings: Return of the king (extended version). </p></div>
+            <div class="grid-item item23"><a href="https://www.primevideo.com/detail/The-Lord-of-the-Rings-The-Return-of-the-King/0NSGBFYAQDZQKEC8BBWKT8GILJ"  target="_blank"><img src="bilder/Return-of-the-king.jpg"></a></div>
 
 
             <!-- Alle 'img src' er bilder og 'a href' er lenker. -->
             <!-- "Target= blank" får nettsiden til å poppe opp i en ny tab -->
 
+            <script src="Javascript/Meny.js"></script>
 
         </div>
     </body>
