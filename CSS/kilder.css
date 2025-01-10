@@ -14,7 +14,7 @@
   .item3 {
     grid-column: 1 / span 3;
     grid-row: 3;
-    background-color: rgb(14, 34, 54);
+    background-color: azure;
   }
 
   .item4 {

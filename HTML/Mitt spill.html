@@ -5,41 +5,50 @@
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="../CSS/Style.css">
     <link rel="stylesheet" href="../CSS/Mitt spill.css"> <!-- linker til css -->
+    <link rel="stylesheet" href="../CSS/Meny.css">
 </head>
  
-<body>
-    <div class="grid-container">
-        <div class="grid-item item1"><h1>Mitt spill</h1></div> 
-        <div class="grid-item item2">
-            <h1>Stein Saks Papir</h1>
-
-        <select id="choices"> <!-- valg i knappen -->
-            <option value = "stein">Stein</option>
-            <option value = "saks">Saks</option>
-            <option value = "papir">Papir</option>
-        </select>
-        <button id="play">Spill</button> <!-- selve knappen -->
-        <p id="rock-paper-scizors">Hva valgte roboten?</p>
-        <p id="result"> Hvem vant?</p>
-        <p id="score"> Dine poeng: 0</p>
-        <p id="bot-score">Roboten sine poeng: 0</p>
-        <script src="../Javascript/Stein-saks-papir.js"></script> <!-- linker til javascript -->
- 
+    <body>
+        <div class="menu-container">
+                
+            <ul class="menu-items" id="menu">
+                <li><a href="../index.html">Hjem</a></li>
+                    <li><a href="../HTML/måke.html">Måke bilde</a></li>
+                    <li><a href="../HTML/Fotoserie.html">Fotoserie</a></li>
+                    <li><a href="../HTML/Mitt spill.html">Mitt spill</a></li>
+                    <li><a href="../HTML/Skisse-og-logg.html">Skisse og Logg</a></li>
+                    <li><a href="../HTML/kilder.html">Kilder</a></li>
+                    <li><a href="../HTML/kalkulator.html">Kalkulator</a></li>
+                    <li><a href="../https://ejmuj.github.io/tourisma/" target="_blank">Engelsk side</a></li>
+                    <li><a href="../https://www.cookieclicker.com/" target="_blank">Cookie clicker</a></li>
+            </ul>
         </div>
-        <div class="grid-item item3">
-            <button class="myButton"><a href="../index.html">Hjem</a></button>
-            <button class="myButton"><a href="https://www.cookieclicker.com/" target="_blank">Cookie clicker</a></button>
-            <button class="myButton"><a href="../HTML/måke.html">Måke bilde</a></button>
-            <button class="myButton"><a href="https://ejmuj.github.io/tourisma/" target="_blank">Engelsk side</a></button>
-            <button class="myButton"><a href="../HTML/Fotoserie.html">Fotoserie</a></button>
-            <button class="myButton"><a href="../HTML/Mitt spill.html">Mitt spill</a></button>
-            <button class="myButton"><a href="../HTML/Skisse-og-logg.html">Skisse og Logg</a></button>
-            <button class="myButton"><a href="../HTML/kilder.html">Kilder</a></button>
-            <button class="myButton"><a href="../HTML/kalkulator.html">Kalkulator</a></button>
-        </div>
+        <div class="grid-container">
+            <div class="grid-item item1">
+                <div style="float: left;"><button class="menu-button" onclick="toggleMenu()">|||</button></div>
+                <h1>Mitt spill</h1></div> 
+            <div class="grid-item item2">
+                <h1>Stein Saks Papir</h1>
 
-    </div>
-</body>
+            <select id="choices"> <!-- valg i knappen -->
+                <option value = "stein">Stein</option>
+                <option value = "saks">Saks</option>
+                <option value = "papir">Papir</option>
+            </select>
+            <button id="play">Spill</button> <!-- selve knappen -->
+            <p id="rock-paper-scizors">Hva valgte roboten?</p>
+            <p id="result"> Hvem vant?</p>
+            <p id="score"> Dine poeng: 0</p>
+            <p id="bot-score">Roboten sine poeng: 0</p>
+            <script src="../Javascript/Stein-saks-papir.js"></script> <!-- linker til javascript -->
+    
+            </div>
+            <div class="grid-item item3"></div>
+
+
+        </div>
+        <script src="../Javascript/Meny.js"></script>
+    </body>
  
 </html>
  

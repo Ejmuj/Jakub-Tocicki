@@ -10,125 +10,125 @@ body {
  
   .item2 {
     grid-column: 1 / span 3;
-    grid-row: 3;
+    grid-row: 2;
     background-color: rgb(102, 102, 160);
   }
 
   .item3 {
     grid-column: 1/ span 3;
-    grid-row: 4;
+    grid-row: 3;
   }
 
   .item4 {
     grid-column: 1 / span 2;
-    grid-row: 5;
+    grid-row: 4;
   }
 
   .item5 {
     grid-column: 3 / span 3;
-    grid-row: 5;
+    grid-row: 4;
     padding: 0px;
   }
 
   .item6 {
     grid-column: 1 / span 3;
-    grid-row: 6;
+    grid-row: 5;
     background-color: rgb(102, 102, 160);
   }
 
   .item7 {
     grid-column: 1 / span 2;
-    grid-row: 7;
+    grid-row: 6;
   }
 
   .item8 {
     grid-column: 3 / span 3;
-    grid-row: 7;
+    grid-row: 6;
     padding: 0px;
   }
 
   .item9 {
     grid-column: 1 / span 3;
-    grid-row: 8;
+    grid-row: 7;
     background-color: rgb(102, 102, 160);
   }
 
   .item10 {
     grid-column: 1 / span 2;
-    grid-row: 9;
+    grid-row: 8;
   }
 
   .item11 {
     grid-column: 3 / span 3;
-    grid-row: 9;
+    grid-row: 8;
     padding: 0px;
   }
 
   .item12 {
     grid-column: 1 / span 3;
-    grid-row: 10;
+    grid-row: 9;
     background-color: rgb(102, 102, 160);
   }
 
   .item13 {
     grid-column: 1 / span 2;
-    grid-row: 11;
+    grid-row: 10;
   }
 
   .item14 {
     grid-column: 3 / span 3;
-    grid-row: 11;
+    grid-row: 10;
     padding: 0px;
   }
 
   .item15 {
     grid-column: 1 / span 3;
-    grid-row: 12;
+    grid-row: 11;
     background-color: rgb(102, 102, 160);
   }
 
   .item16 {
     grid-column: 1 / span 2;
-    grid-row: 13;
+    grid-row: 12;
   }
 
   .item17 {
     grid-column: 3 / span 3;
-    grid-row: 13;
+    grid-row: 12;
     padding: 0px;
   }
 
   .item18 {
     grid-column: 1 / span 3;
-    grid-row: 14;
+    grid-row: 13;
     background-color: rgb(102, 102, 160);
   }
 
   .item19 {
     grid-column: 1 / span 2;
-    grid-row: 15;
+    grid-row: 14;
   }
 
   .item20 {
     grid-column: 3 / span 3;
-    grid-row: 15;
+    grid-row: 14;
     padding: 0px;
   }
 
   .item21 {
     grid-column: 1 / span 3;
-    grid-row: 16;
+    grid-row: 15;
     background-color: rgb(102, 102, 160);
   }
 
   .item22 {
     grid-column: 1 / span 2;
-    grid-row: 17;
+    grid-row: 15;
   }
 
   .item23 {
     grid-column: 3 / span 3;
-    grid-row: 17;
+    grid-row: 16;
     padding: 0px;
   }
 

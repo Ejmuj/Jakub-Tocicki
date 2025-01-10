@@ -3,23 +3,29 @@
         <title>Kilder</title>
         <link rel="stylesheet" href="../CSS/Style.css">
         <link rel="stylesheet" href="../CSS/kilder.css">
+        <link rel="stylesheet" href="../CSS/Meny.css">
     </head>
 
     <body>
-        <div class="grid-container">
-            <div class="grid-item item1"><h1>Kilder/hjelpemidler:</h1></div>
-            <div class="grid-item item2">
-                <button class="myButton"><a href="../index.html">Hjem</a></button>
-                <button class="myButton"><a href="https://www.cookieclicker.com/" target="_blank">Cookie clicker</a></button>
-                <button class="myButton"><a href="../HTML/måke.html">Måke bilde</a></button>
-                <button class="myButton"><a href="https://ejmuj.github.io/tourisma/" target="_blank">Engelsk side</a></button>
-                <button class="myButton"><a href="../HTML/Fotoserie.html">Fotoserie</a></button>
-                <button class="myButton"><a href="../HTML/Mitt spill.html">Mitt spill</a></button>
-                <button class="myButton"><a href="../HTML/Skisse-og-logg.html">Skisse og Logg</a></button>
-                <button class="myButton"><a href="../HTML/kilder.html">Kilder</a></button>
-                <button class="myButton"><a href="../HTML/kalkulator.html">Kalkulator</a></button>
+        <div class="menu-container">
             
-            </div>
+            <ul class="menu-items" id="menu">
+                <li><a href="../index.html">Hjem</a></li>
+                <li><a href="../HTML/måke.html">Måke bilde</a></li>
+                <li><a href="../HTML/Fotoserie.html">Fotoserie</a></li>
+                <li><a href="../HTML/Mitt spill.html">Mitt spill</a></li>
+                <li><a href="../HTML/Skisse-og-logg.html">Skisse og Logg</a></li>
+                <li><a href="../HTML/kilder.html">Kilder</a></li>
+                <li><a href="../HTML/kalkulator.html">Kalkulator</a></li>
+                <li><a href="../https://ejmuj.github.io/tourisma/" target="_blank">Engelsk side</a></li>
+                <li><a href="../https://www.cookieclicker.com/" target="_blank">Cookie clicker</a></li>
+            </ul>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item item1">
+                <div style="float: left;"><button class="menu-button" onclick="toggleMenu()">|||</button></div>
+                <h1>Kilder/hjelpemidler:</h1></div>
+            <div class="grid-item item2"></div>
 
             <!-- Har ikke brukt så mange kilder :( -->
 
@@ -32,6 +38,6 @@
             </div>
             <div class="grid-item item4"><a href="https://www.istockphoto.com/search/2/image-film?phrase=catfish" target="_blank"><img src="../bilder/feeeeeesh.jpg"></div></a><!-- En kul komentar. -->
         </div>
-        
+        <script src="../Javascript/Meny.js"></script>
     </body>
 </html>
